@@ -12,6 +12,22 @@ Antes de ejecutar la aplicación, asegúrate de tener instalado lo siguiente:
 
 ## Configuración
 
+## Instalacion
+
+1. **Clona el repositorio:**
+
+   ```bash
+   git clone https://github.com/tu_usuario/nombre_del_repositorio.git 
+    
+2. **Navega a la carpeta del proyecto: **
+   ```bash
+   cd nombre_del_repositorio
+   ```
+3. **Compila el proyecto: **
+   ```bash
+   mvn clean install
+   ```
+
 ### Base de Datos
 
 1. Crea una base de datos en MySQL llamada `db_libreria` (o el nombre que prefieras).
@@ -39,18 +55,5 @@ Antes de ejecutar la aplicación, asegúrate de tener instalado lo siguiente:
            </properties>
        </persistence-unit>
    </persistence>
-## Instalación
+  
 
-1. **Clona el repositorio:**
-
-   ```bash
-   git clone https://github.com/tu_usuario/nombre_del_repositorio.git
-   
-2. **Navega a la carpeta del proyecto: **
-   ```bash
-   cd nombre_del_repositorio
-   
-3. **Compila el proyecto: **
-   ```bash
-   mvn clean install
-   
